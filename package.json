@@ -1,0 +1,34 @@
+{
+  "name": "dbcopycat",
+  "version": "1.0.0",
+  "description": "A JSON Database that saves your json data in a file. Easy and Simple to Use",
+  "main": "index.js",
+  "scripts": {
+    "init": "init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismailcankaratas/dbcopycat.git"
+  },
+  "keywords": [
+    "dbcopycat",
+    "jsondb",
+    "jsondata",
+    "dbjson",
+    "json",
+    "data",
+    "save",
+    "file",
+    "read",
+    "write",
+    "add",
+    "remove",
+    "ismailcankaratas"
+  ],
+  "author": "İsmail Can Karataş",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismailcankaratas/dbcopycat/issues"
+  },
+  "homepage": "https://github.com/ismailcankaratas/dbcopycat#readme"
+}
