@@ -8,9 +8,9 @@
  */
 
 const add = require('./operations/add');
-const remove = require('./operations/add');
-const update = require('./operations/add');
-const getAll = require('./operations/add');
+const remove = require('./operations/remove');
+const update = require('./operations/update');
+const getAll = require('./operations/getAll');
 
 
 module.exports.add = add;

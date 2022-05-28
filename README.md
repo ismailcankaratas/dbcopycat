@@ -18,8 +18,8 @@ dbcopycat init
 Generates a `db.json` file with some data
 # Commands
 
-## Add
-
+## :blue_square: add
+Adds data to json
 ```
 const dbcopycat = require('dbcopycat');
 
@@ -32,7 +32,16 @@ var data = {
     "unitsInStock": 17
 }
 
-dbcopycat.add("products", data);
+dbcopycat.add("arrayName", data);
+```
+
+## :blue_square: getAll
+Fetch all data
+
+```
+const dbcopycat = require('dbcopycat');
+
+var data = dbcopycat.getAll();
 ```
 
 Will be added...

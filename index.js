@@ -10,7 +10,7 @@
 const init = require('./utils/init');
 const cli = require('./utils/cli');
 const log = require('./utils/log');
-const initdb = require('./functions/initdb');
+const initdb = require('./helpers/initdb');
 
 const input = cli.input;
 const flags = cli.flags;

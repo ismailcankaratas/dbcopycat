@@ -9,8 +9,8 @@ module.exports = ({ clear = true }) => {
 		tagLine: `by İsmail Can Karataş`,
 		description: pkg.description,
 		version: pkg.version,
-		bgColor: '#36BB09',
-		color: '#000000',
+		bgColor: '#4db5ff',
+		color: '#ffff',
 		bold: true,
 		clear
 	});

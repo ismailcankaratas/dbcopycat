@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const writeDataJson = require("../functions/writeDataJson");
+const writeDataJson = require("../helpers/writeDataJson");
 
 function add(tableName, data) {
     fs.readFile("data/db.json", function (error, fileData) {
