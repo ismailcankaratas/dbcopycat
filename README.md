@@ -7,7 +7,7 @@ A JSON Database that saves your json data in a file. Easy and Simple to Use
 Install Database Copycat
 
 ``` 
-npm i dbcopycat --save 
+npm i -g dbcopycat
 ```
 
 Then...
@@ -21,7 +21,7 @@ Generates a `db.json` file with some data
 ## Add
 
 ```
-const dbcopycat = require('./index');
+const dbcopycat = require('dbcopycat');
 
 var data = {
     "id": 2,
@@ -33,8 +33,6 @@ var data = {
 }
 
 dbcopycat.add("products", data);
-
-
 ```
 
 Will be added...
