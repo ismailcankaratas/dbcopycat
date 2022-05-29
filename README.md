@@ -17,9 +17,26 @@ dbcopycat init
 ```
 Generates a `db.json` file with some data
 # Commands
+## :blue_square: getAll()
+Fetch all data
 
-## :blue_square: add
-Adds data to json
+```
+const dbcopycat = require('dbcopycat');
+
+var data = dbcopycat.getAll();
+``` 
+
+## :blue_square: getById(arrayName, dataId)
+Returns the data that matches the data id
+
+```
+const dbcopycat = require('dbcopycat');
+
+dbcopycat.getById(arrayName, dataId);
+```
+
+## :blue_square: add(arrayName, data)
+Adds data to data
 ```
 const dbcopycat = require('dbcopycat');
 
@@ -35,13 +52,22 @@ var data = {
 dbcopycat.add("arrayName", data);
 ```
 
-## :blue_square: getAll
-Fetch all data
+## :blue_square: deleteById(arrayName, dataId)
+Deletes data that matches the data ID
 
 ```
 const dbcopycat = require('dbcopycat');
 
-var data = dbcopycat.getAll();
+dbcopycat.deleteById(arrayName, dataId);
 ```
 
-Will be added...
+## :blue_square: update(arrayName, data)
+Updates data that matches the data id
+
+```
+const dbcopycat = require('dbcopycat');
+
+dbcopycat.update(arrayName, data);
+```
+
+

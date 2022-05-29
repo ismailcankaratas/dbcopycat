@@ -7,13 +7,14 @@
  * @author İsmail Can Karataş <https://ismailcankaratas.github.io/>
  */
 
-const add = require('./operations/add');
-const remove = require('./operations/remove');
-const update = require('./operations/update');
 const getAll = require('./operations/getAll');
+const getById = require('./operations/getById');
+const add = require('./operations/add');
+const deleteById = require('./operations/deleteById');
+const update = require('./operations/update');
 
-
-module.exports.add = add;
-module.exports.remove = remove;
-module.exports.update = update;
 module.exports.getAll = getAll;
+module.exports.getById = getById;
+module.exports.add = add;
+module.exports.deleteById = deleteById;
+module.exports.update = update;

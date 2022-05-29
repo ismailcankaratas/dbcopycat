@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 
 function init() {
     fs.mkdir('data', function (error) {

@@ -1,8 +1,7 @@
 const fs = require('fs');
 
-
 function getAllData() {
-    const data = fs.readFileSync("/data/db.json");
+    const data = fs.readFileSync("./data/db.json");
     return JSON.parse(data);
 }
 
