@@ -1,7 +1,7 @@
 {
 	"name": "dbcopycat",
-	"version": "0.1.3",
-	"description": "A JSON Database that saves your json data in a file. Easy and Simple to Use",
+	"version": "1.0.0",
+	"description": "A JSON Database that saves your Json data in a file and makes it easy for you to perform CRUD operations.",
 	"main": "local.js",
 	"license": "ISC",
 	"bin": {

@@ -1,10 +1,18 @@
 # What is dbcopycat
 
-A JSON Database that saves your json data in a file. Easy and Simple to Use
+A JSON Database that saves your Json data in a file and makes it easy for you to perform CRUD operations.
+
+# ⚡️Abilities
+- Creates the file where the json data is kept in the main directory.
+- Adds easy and persistent data to json.
+- Deletes data in json.
+- Updates data in json.
+- Retrieves data in json.
+- Fetch data by id in json
 
 # Getting started
 
-Install Database Copycat
+### Install Database Copycat
 
 ``` 
 npm i -g dbcopycat
