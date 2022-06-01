@@ -78,4 +78,20 @@ const dbcopycat = require('dbcopycat');
 dbcopycat.update(arrayName, data);
 ```
 
+## :blue_square: filter(arrayName, condition)
+Filters data by condition
 
+```
+const dbcopycat = require('dbcopycat');
+
+dbcopycat.filter("arrayName", x => x.id == 1)
+```
+
+## :blue_square: find(arrayName, condition)
+Returns a single data suitable for the condition
+
+```
+const dbcopycat = require('dbcopycat');
+
+dbcopycat.find("arrayName", x => x.categoryid == 1)
+```

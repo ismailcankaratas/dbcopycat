@@ -12,9 +12,13 @@ const getById = require('./operations/getById');
 const add = require('./operations/add');
 const deleteById = require('./operations/deleteById');
 const update = require('./operations/update');
+const filter = require('./operations/filter');
+const find = require('./operations/filter');
 
 module.exports.getAll = getAll;
 module.exports.getById = getById;
 module.exports.add = add;
 module.exports.deleteById = deleteById;
 module.exports.update = update;
+module.exports.filter = filter;
+module.exports.find = find;
