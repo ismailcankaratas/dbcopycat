@@ -10,7 +10,7 @@ function add(arrayName, data) {
             newData[arrayName].push(data)
         } else {
             log(`${arrayName} is not an array.`, "Error", "error");
-         }
+        }
     } else {
         newData[arrayName] = []
         newData[arrayName].push(data);
