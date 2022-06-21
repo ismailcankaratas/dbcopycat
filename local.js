@@ -13,7 +13,7 @@ const add = require('./operations/add');
 const deleteById = require('./operations/deleteById');
 const update = require('./operations/update');
 const filter = require('./operations/filter');
-const find = require('./operations/filter');
+const find = require('./operations/find');
 
 module.exports.getAll = getAll;
 module.exports.getById = getById;
