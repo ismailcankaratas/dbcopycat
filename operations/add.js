@@ -16,6 +16,7 @@ function add(arrayName, data) {
         newData[arrayName].push(data);
     }
     writeDataJson(JSON.stringify(newData, null, 4));
+    return data;
 }
 
 module.exports = add;

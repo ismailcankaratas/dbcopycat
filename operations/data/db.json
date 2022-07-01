@@ -1,0 +1,12 @@
+{
+        "products": [
+            {
+                "id": 1,
+                "categoryId": 2,
+                "productName": "Chai",
+                "quantityPerUnit": "48 - 6 oz jars",
+                "unitPrice": "30",
+                "unitsInStock": 53
+            }
+        ]
+    }
