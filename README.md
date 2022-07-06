@@ -20,7 +20,7 @@ A JSON Database that saves your Json data in a file and makes it easy for you to
 
 # Motivation
 
-In small web projects, database connection is `very troublesome and unnecessary` in projects we usually do to improve ourselves. That's why we make use of `static json` files. Why don't we make our static json file `dynamic` with minimal code?
+In small web projects, database connection is very troublesome and unnecessary in projects we usually do to improve ourselves. That's why we make use of `static json` files. Why don't we make our static json file `dynamic` with minimal code?
 
 # Features
 
