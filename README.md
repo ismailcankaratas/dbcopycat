@@ -1,6 +1,6 @@
-# What is dbcopycat
+# What is dbcopycat ?
 
-A JSON Database that saves your Json data in a file and makes it easy for you to perform CRUD operations.
+A JSON Database that saves your JSON data in a file and makes it easy for you to perform CRUD operations.
 
 <!-- TOC -->
 - [Motivation](#motivation)
