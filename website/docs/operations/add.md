@@ -9,7 +9,7 @@ It performs the process of adding data to the json database.
 
 **Attention:** dont forget to add the id key to your data!
 
-```bash
+```js
 const dbcopycat = require("dbcopycat");
 
 var data = {

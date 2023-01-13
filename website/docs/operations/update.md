@@ -9,7 +9,7 @@ Updates data matching `dataId` in `arrayName` in db.json.
 
 **Updates data that matches the data id**
 
-```bash
+```js
 const dbcopycat = require('dbcopycat');
 dbcopycat.update(arrayName, data);
 ```

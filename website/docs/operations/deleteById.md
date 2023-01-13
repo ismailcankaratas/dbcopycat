@@ -8,7 +8,7 @@ It deletes the data matching the `dataId` in `arrayName` in the db.json file.
 
 **Deletes data that matches the data ID**
 
-```bash
+```js
 const dbcopycat = require('dbcopycat');
 dbcopycat.deleteById(arrayName, dataId);
 ```
