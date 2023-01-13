@@ -8,7 +8,7 @@ Filters data in `arrayName` in db.json by `condition`
 
 **Filters data by condition**
 
-```bash
+```js
 const dbcopycat = require('dbcopycat');
 const data = dbcopycat.filter("arrayName", x => x.quantity == 5);
 console.log(data);

@@ -8,7 +8,7 @@ Returns data that matches the id `dataId` in `arrayName` in the db.json file.
 
 **Returns the data that matches the data id**
 
-```bash
+```js
 const dbcopycat = require('dbcopycat');
 const data = dbcopycat.getById(arrayName, dataId);
 console.log(data)

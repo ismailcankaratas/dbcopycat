@@ -8,7 +8,7 @@ In db.json, it returns the appropriate data according to `condition` from the da
 
 **Returns a single data suitable for the condition**
 
-```bash
+```js
 const dbcopycat = require('dbcopycat');
 const data = dbcopycat.find("arrayName", x => x.id == 1)
 console.log(data);
