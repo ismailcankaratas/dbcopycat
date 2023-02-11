@@ -20,6 +20,12 @@ function HomepageHeader() {
             to="/docs/intro">
             Documentation
           </Link>
+          <Link
+            to="https://www.producthunt.com/products/dbcopycat/reviews?utm_source=badge-product_review&utm_medium=badge&utm_souce=badge-dbcopycat" target="_blank">
+            <img src="https://api.producthunt.com/widgets/embed-image/v1/product_review.svg?product_id=521146&theme=light"
+              alt="Dbcopycat - Dynamicizing&#0032;static&#0032;json&#0032;files&#0032;with&#0032;Node&#0032;Js&#0046;&#0032;Fast&#0032;json&#0032;data&#0046; | Product Hunt"
+            />
+          </Link>
         </div>
       </div>
     </header>
