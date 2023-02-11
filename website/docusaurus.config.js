@@ -8,6 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Dbcopycat',
   tagline: 'A JSON Database that saves your Json data in a file and makes it easy for you to perform CRUD operations.',
+  favicon: '/img/favicon.png',
   url: 'https://ismailcankaratas.github.io',
   baseUrl: '/dbcopycat/',
   onBrokenLinks: 'ignore',
@@ -52,7 +53,8 @@ const config = {
         title: 'Dbcopycat',
         logo: {
           alt: '',
-          src: '#',
+          src: '/img/favicon-dark.png',
+          srcDark: '/img/favicon.png',
         },
         items: [
           {
